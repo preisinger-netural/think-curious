@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Think Curious</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Inter:wght@400;500&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo">Think Curious</div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section class="hero">
-        <h1>Think Curious</h1>
-        <p>Your tagline goes here.</p>
-        <a href="#" class="btn">Get in touch</a>
-      </section>
-    </main>
+    <!-- Loading screen -->
+    <div class="loader" id="loader">
+      <div class="loader-inner">
+        <div class="loader-logo">Think Curious</div>
+        <div class="loader-track">
+          <div class="loader-bar" id="loaderBar"></div>
+        </div>
+      </div>
+    </div>
 
-    <footer>
-      <p>&copy; 2026 Think Curious. All rights reserved.</p>
-    </footer>
+    <!-- Site -->
+    <div class="site" id="site">
+
+      <header>
+        <nav>
+          <div class="logo">Think Curious</div>
+          <a href="#" class="btn-nav">Get in touch</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <h1>Your tagline<br>goes here.</h1>
+          <p>Think Curious. A short description of what you do and who you do it for.</p>
+          <a href="#" class="btn">Get in touch</a>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Think Curious.</p>
+      </footer>
+
+    </div>
 
     <script src="js/main.js"></script>
   </body>
